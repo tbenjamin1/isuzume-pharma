@@ -10,14 +10,7 @@ const MealsSummary = () => {
         24/7 customer care center simple online odering system guaranteed lowest
         prices
       </p>
-      <p>
-        <strong>
-          {" "}
-          Get Cured <br></br>
-          with isuzume pharmacy{" "}
-        </strong>
-        just-in-time and of course by expected phamacist?
-      </p>
+      <form className={classes.form}></form>
     </section>
   );
 };
