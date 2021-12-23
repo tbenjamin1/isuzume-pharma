@@ -1,0 +1,33 @@
+.form {
+  text-align: right;
+  /* border: 1px solid rgb(66, 55, 170); */
+  margin: 1rem;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  margin-right: 30px;
+  color: #031729;
+  padding: 3px;
+  height: 20px;
+}
+.form button {
+  font: inherit;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: #69b0f3;
+  border: none;
+  color: white;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #dde4eb;
+  border-color: #69b0f3;
+  color: #69b0f3;
+}

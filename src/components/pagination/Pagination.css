@@ -1,0 +1,33 @@
+.pageContainer {
+  margin-bottom: 5rem;
+}
+.page-Bttn {
+  border-radius: 5px;
+  border: none;
+  height: auto;
+  color: white;
+  background-color: steelblue;
+  justify-content: center;
+  margin: 1rem;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page-Bttn:hover {
+  color: steelblue;
+  background-color: white;
+}
+/* .actions .page-Bttn:hover,
+.actions .page-Bttn:active {
+  background-color: #ffe6dc;
+  color: steelblue;
+} */
+.page-Bttn:hover,
+.page-Bttn:active {
+  background-color: #dde4eb;
+  border-color: #69b0f3;
+  color: #69b0f3;
+}
