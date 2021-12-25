@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Cart from "./components/Cart/Cart";
+import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Meals from "./components/meals/Meals";
 import CartProvider from "./store/CartProvider";
@@ -21,6 +22,7 @@ const App = () => {
       <main>
         <Meals />
       </main>
+      <Footer />
     </CartProvider>
   );
 };

@@ -1,6 +1,6 @@
 .form {
   text-align: right;
-  /* border: 1px solid rgb(66, 55, 170); */
+
   margin: 1rem;
   display: flex;
 
@@ -9,7 +9,8 @@
 }
 .form input {
   margin-right: 30px;
-  color: #031729;
+  color: #389cf3;
+  border: 1px solid rgb(66, 55, 170);
   padding: 3px;
   height: 20px;
 }
@@ -20,7 +21,8 @@
   background-color: #69b0f3;
   border: none;
   color: white;
-  width: 6rem;
+  font-size: 11px;
+  width: 4rem;
   padding: 5px 0;
   border-radius: 1.25rem;
 }

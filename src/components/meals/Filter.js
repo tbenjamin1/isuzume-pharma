@@ -10,7 +10,7 @@ const Filter = () => {
           <input type="text"></input>
         </div>
         <div className="">
-          <label>Filter by category</label>
+          <label>category</label>
           <select value="">
             <option value="2022">2022</option>
             <option value="2021">2021</option>
