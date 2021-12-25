@@ -6,11 +6,15 @@ const Filter = () => {
     <div>
       <div className="filter">
         <div className="">
-          <label>search</label>
+          <label>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </label>
           <input type="text"></input>
         </div>
         <div className="">
-          <label>category</label>
+          <label>
+            category<i class="fa fa-filter" aria-hidden="true"></i>
+          </label>
           <select value="">
             <option value="2022">2022</option>
             <option value="2021">2021</option>

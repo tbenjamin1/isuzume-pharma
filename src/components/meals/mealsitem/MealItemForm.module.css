@@ -10,9 +10,10 @@
 .form input {
   margin-right: 30px;
   color: #389cf3;
-  border: 1px solid rgb(66, 55, 170);
-  padding: 3px;
+  border: 1px solid #389cf3;
+  padding-left: 3px;
   height: 20px;
+  border-radius: 20px;
 }
 .form button {
   font: inherit;
@@ -24,7 +25,7 @@
   font-size: 11px;
   width: 4rem;
   padding: 5px 0;
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 
 .form button:hover,
