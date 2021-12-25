@@ -1,4 +1,5 @@
 import React from "react";
+import Filter from "./Filter";
 import classes from "./MealsSumary.module.css";
 
 const MealsSummary = () => {
@@ -10,9 +11,8 @@ const MealsSummary = () => {
         24/7 customer care center simple online odering system guaranteed lowest
         prices
       </p>
-      <form className={classes.form}></form>
+      <Filter />
     </section>
   );
 };
-
 export default MealsSummary;
