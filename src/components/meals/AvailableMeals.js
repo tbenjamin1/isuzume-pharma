@@ -19,7 +19,9 @@ const AvailableMeals = (props) => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   useEffect(() => {
+    
     const fetchMeals = async () => {
+
       const response = await fetch("https://fakestoreapi.com/products");
       if (!response.ok) {
         throw new Error("something went wrong!");

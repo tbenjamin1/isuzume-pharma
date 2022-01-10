@@ -9,6 +9,7 @@ const defaultCartState = {
 };
 
 const cartReducer = (state, action) => {
+
   if (action.type === "ADD") {
     const updateTotalAmount =
       state.totalAmount + action.item.price * action.item.amount;
@@ -76,6 +77,7 @@ if(action.type === 'CLEAR' ){
 };
 
 const CartProvider = (props) => {
+  
   const [cartState, dispatchCartState] = useReducer(
     cartReducer,
     defaultCartState
@@ -97,6 +99,7 @@ const CartProvider = (props) => {
   };
 // dispatch clear action
 const clearCartHandler =() =>{
+
   dispatchCartState({type:'CLEAR'});
 }
 

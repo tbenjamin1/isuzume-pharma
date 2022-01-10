@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #69b0f3;
+  /* border: 1px solid red; */
   border-bottom: 2px solid #69b0f3;
-  padding: 1rem 0;
-  margin: 1rem 0;
+  padding: 2rem ;
+  margin: 2rem ;
 }
 
 .cart-item h2 {
@@ -45,6 +45,8 @@
   }
 }
 
+
+
 .cart-item button {
   font: inherit;
   font-weight: bold;
@@ -64,4 +66,28 @@
 .cart-item button:active {
   background-color: #69b0f3;
   color: white;
+}
+
+@media (max-width: 820px) {
+  .cart-item {
+ 
+ 
+  font-size:10px;
+  text-align:center;
+ 
+}
+.cart-item button {
+ 
+  font-size: 10px;
+
+  margin-bottom:10px;
+  width: 2rem;
+
+  
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+  
 }
